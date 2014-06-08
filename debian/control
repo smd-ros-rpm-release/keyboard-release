@@ -1,0 +1,12 @@
+Source: ros-hydro-keyboard
+Section: misc
+Priority: extra
+Maintainer: v01d <dontwantspam@spam.com>
+Build-Depends: debhelper (>= 9.0.0), libruby1.8, libsdl1.2-dev, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-roscpp, ros-hydro-std-msgs, ruby1.8-dev, rubygems1.8
+Homepage: http://wiki.ros.org/keyboard
+Standards-Version: 3.9.2
+
+Package: ros-hydro-keyboard
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsdl1.2-dev, ros-hydro-message-runtime, ros-hydro-roscpp, ros-hydro-std-msgs
+Description: publishes keyboard key presses
